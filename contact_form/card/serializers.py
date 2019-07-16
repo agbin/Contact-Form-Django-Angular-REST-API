@@ -11,3 +11,6 @@ class ContactMiniSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
         fields = ('id', 'name', 'email', 'subject', 'message')
+
+
+        # extra_kwargs = {'email': {'required': False}}
