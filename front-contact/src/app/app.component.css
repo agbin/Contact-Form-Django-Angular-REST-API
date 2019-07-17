@@ -1,0 +1,109 @@
+
+
+
+body, input, textarea {
+	font-family: Open Sans, Helvetica, sans-serif;
+	font-size: 18px;
+	color: grey;
+}
+body {
+    background: #FFF;
+    /* background: rgb(252, 208, 87); */
+	
+	color: #333;
+}
+label {
+	display: block;
+	font-weight: 700;
+	margin: 0 0 8px 0;
+	min-width: 50px;
+}
+input, textarea {
+	border: 1px solid #ccc;
+	padding: 4px 0;
+	width: 100%;
+	-webkit-appearance: none;
+}
+input[type=submit] {
+	background: #4a4;
+	border: 0;
+	color: #fff;
+	padding: 8px 16px;
+	transition: background 0.2s;
+}
+input[type=submit]:not(:disabled):hover {
+    /* background: #6c6; */
+    background: rgb(241, 240, 240);
+}
+/* input[type=submit]:not(:disabled):active {
+	background: #383;
+} */
+.button1 {
+	color: white;
+	font-size: 18px;
+	background-color: #4CAF50; /* Green */
+	height: 60px;
+	width: 200px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;}
+.button2 {background-color: #008CBA; /* Blue */
+	color: white;
+	font-size: 18px;
+	height: 60px;
+	width: 200px;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;}
+.button3 {background-color: #f44336; /* Red */ 
+	color: white;
+	font-size: 18px;
+	height: 60px;
+	width: 200px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;}
+
+
+input[disabled] {
+	opacity: 0.5;
+}
+.container {
+    background: rgb(243, 218, 107);
+    /* background: rgb(241, 240, 240); */
+	/* background: rgb(252, 208, 87); */
+	box-shadow: 0 2px 4px #888;
+	margin: auto;
+	padding: 16px;
+	max-width: 1000px;
+}
+.form-group {
+	margin-bottom: 16px;
+}
+input.ng-invalid.ng-dirty,
+textarea.ng-invalid.ng-dirty{
+	border-color: red;
+	box-shadow: 0 0 4px red;
+}
+/* .contact{
+    background: rgb(243, 220, 119)
+} */
+
+.block {
+    color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    /* background: rgb(243, 220, 119); */
+    background-color: rgb(109, 204, 112);
+    padding: 30px;
+    font-size: 32px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .th1{
+	width: 800px;
+  }
+  .th2{
+	width: 500px;
+  }
+  .th3{
+	  width: 500px;
+  }

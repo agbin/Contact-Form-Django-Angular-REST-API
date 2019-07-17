@@ -1,0 +1,38 @@
+<body>
+  <table>
+    <tr>
+      <th class="th1">
+        <h2 class="block">Leave the Message</h2>
+        <div div class="container" ng-app="ContactForm">
+          
+          Name <input type="text" [(ngModel)]="selectedContact.name"/><br/><br/>
+
+          Email <input type="text" [(ngModel)]="selectedContact.email" #nameInput="ngModel" required/><br/><br/>
+
+          Subject <input type="text" [(ngModel)]="selectedContact.subject"/><br/><br/>
+
+          Message <textarea [(ngModel)]="selectedContact.message"></textarea><br/><br/>
+
+          <button *ngIf="selectedContact.id != -1" (click)="updateContact()" class="button2"> PUT </button>
+          <button *ngIf="selectedContact.id == -1" (click)="createContact()" class="button1"> POST </button>
+          <button *ngIf="selectedContact.id != -1" (click)="deleteContact()" class="button3"> DELETE </button>
+                
+        </div>
+        
+      </th>
+      <th class="th2"></th>
+      <th class="th3">  
+        <hr/>
+        <h2>List of Contacts</h2>
+        <ul>
+          <li *ngFor="let contact of contacts">
+            <h2 (click)="contactClicked(contact)">{{contact.name}}</h2>
+          </li>
+        </ul>
+      </th>  
+
+    </tr>
+  </table>
+  
+</body>
+<router-outlet></router-outlet>
