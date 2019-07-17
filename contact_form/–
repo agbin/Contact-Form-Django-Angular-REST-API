@@ -1,0 +1,7 @@
+[2019-07-17 00:58:19 +0200] [22375] [INFO] Starting gunicorn 19.9.0
+[2019-07-17 00:58:19 +0200] [22375] [INFO] Listening at: http://0.0.0.0:5000 (22375)
+[2019-07-17 00:58:19 +0200] [22375] [INFO] Using worker: sync
+[2019-07-17 00:58:19 +0200] [22379] [INFO] Booting worker with pid: 22379
+[2019-07-17 00:59:17 +0200] [22375] [INFO] Handling signal: int
+[2019-07-16 22:59:17 +0000] [22379] [INFO] Worker exiting (pid: 22379)
+[2019-07-17 00:59:17 +0200] [22375] [INFO] Shutting down: Master
