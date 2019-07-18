@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
 let ApiService = class ApiService {
     constructor(http) {
         this.http = http;
-        this.baseurl = "http://127.0.0.1:8000";
+        this.baseurl = "http://127.0.0.1:8000/api";
         this.httpHeaders = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({ 'Content-Type': 'application/json' });
     }
     getAllContacts() {
@@ -318,7 +318,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/front-contact/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/Contact-Form-Django-Angular-REST-API/front-contact/src/main.ts */"./src/main.ts");
 
 
 /***/ })

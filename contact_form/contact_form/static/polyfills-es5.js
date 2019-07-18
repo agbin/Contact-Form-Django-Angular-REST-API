@@ -13074,10 +13074,10 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/front-contact/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
-__webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/front-contact/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
-__webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/front-contact/src/polyfills.ts */"./src/polyfills.ts");
-module.exports = __webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/front-contact/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+__webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/Contact-Form-Django-Angular-REST-API/front-contact/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
+__webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/Contact-Form-Django-Angular-REST-API/front-contact/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
+__webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/Contact-Form-Django-Angular-REST-API/front-contact/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/Contact-Form-Django-Angular-REST-API/front-contact/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js */"./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
 
 
 /***/ })

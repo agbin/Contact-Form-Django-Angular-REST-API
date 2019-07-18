@@ -5,3 +5,4 @@ staticfiles
 .env
 envcontact
 __pycache__/
+node_modules

@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/front-contact/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /home/agnieszka/Desktop/aktualne/2019_07_12_contact_form_django_angular_rest_api/Contact-Form-Django-Angular-REST-API/front-contact/src/styles.css */"./src/styles.css");
 
 
 /***/ })
