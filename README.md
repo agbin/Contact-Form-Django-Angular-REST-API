@@ -40,7 +40,7 @@ The following files are interesting:
 
   * cd contact_form
   * **python manage.py runserver**
-  * Your app will be available at http://127.0.0.1:8000.
+  * Your app will be available at http://127.0.0.1:8000 or http://127.0.0.1:8000/api/contacts/
   
 ## Database
 
