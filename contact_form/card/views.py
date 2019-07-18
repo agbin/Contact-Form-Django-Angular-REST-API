@@ -7,6 +7,7 @@ from rest_framework.response import Response
 class ContactViewSet(viewsets.ModelViewSet):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
+    throttle_scope = 'contact'
 
     def list(self, request, *args, **kwargs):
         contacts = Contact.objects.all()
