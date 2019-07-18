@@ -32,7 +32,7 @@ The following files are interesting:
   * virtualenv -p python3 env
   * source env/bin/activate
   * pip install djangorestframework
-  * cd Contact-Form-Django-Angular-REST-API
+  * cd Contact-Form-Django-Angular-REST-API <br/>
     pip install -r requirements.txt
   * pip3 install psycopg2
   
