@@ -5,9 +5,10 @@ Framework used as backend.The form has following fields: name of the sender, sen
 Application created for recruitment purposes. It was written using Python 3.7 and is compatible with 3.5.
 
 ## Demo Application
-https://contacts-card.herokuapp.com/:
+https://contacts-card.herokuapp.com/ <br/> 
 present contact form / user interface
-https://contacts-card.herokuapp.com/api/contacts/ :
+
+https://contacts-card.herokuapp.com/api/contacts/ <br/> 
 consist a list of all contacts already present in application database (rest framework).
 
 ## What this repo contains
