@@ -26,9 +26,9 @@ SECRET_KEY = '+#+w=%7!g-kyc5ddi+3t7n-)wb300#--bt_^5(0%9-8e5o*hqn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
-# ALLOWED_HOSTS = ['contacts-card.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['contacts-card.herokuapp.com', '127.0.0.1']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:4200",
