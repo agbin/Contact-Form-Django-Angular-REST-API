@@ -53,7 +53,8 @@ __webpack_require__.r(__webpack_exports__);
 let ApiService = class ApiService {
     constructor(http) {
         this.http = http;
-        this.baseurl = "http://127.0.0.1:8000/api";
+        this.baseurl = "http://contacts-card.herokuapp.com/api";
+        // baseurl = "http://127.0.0.1:8000/api";
         this.httpHeaders = new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({ 'Content-Type': 'application/json' });
     }
     getAllContacts() {
