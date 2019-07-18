@@ -5,9 +5,9 @@ Framework used as backend.The form has following fields: name of the sender, sen
 Application created for recruitment purposes. It was written using Python 3.7 and is compatible with 3.5.
 
 ## Demo Application
-URL: contacts-card.herokuapp.com/:
+https://contacts-card.herokuapp.com/:
 present contact form / user interface
-URL: contacts-card.herokuapp.com/api/contacts/ :
+https://contacts-card.herokuapp.com/api/contacts/ :
 consist a list of all contacts already present in application database (rest framework).
 
 ## What this repo contains
@@ -37,7 +37,7 @@ The following files are interesting:
 ## Run it local
 
   * cd contact_form
-  * python manage.py runserver
+  * **python manage.py runserver**
   * Your app will be available at http://127.0.0.1:8000.
   
 ## Database
